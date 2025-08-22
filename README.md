@@ -1,1 +1,1 @@
-# jizaijizai.github.xyz
+# jizaijizai.github.io
