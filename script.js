@@ -10,8 +10,8 @@ const noTexts = [
     "？你认真的吗…", 
     "要不再想想？", 
     "不许选这个！ ", 
-    "我会很伤心…", 
-    "当小狗很幸福的..."
+    "其他同学会很伤心…", 
+    "其实鱼糕很好的..."
 ];
 
 // No 按钮点击事件
@@ -49,7 +49,7 @@ noButton.addEventListener("click", function() {
 yesButton.addEventListener("click", function() {
     document.body.innerHTML = `
         <div class="yes-screen">
-            <h1 class="yes-text">我会好好疼爱你的</h1>
+            <h1 class="yes-text">鱼糕会好好疼爱你的</h1>
             <img src="hug.png" alt="拥抱" class="yes-image">
         </div>
     `;
